@@ -14,17 +14,6 @@ clusters:
   name: yc-managed-k8s-cattig98f4nvjj7r2so3
 contexts:
 - context:
-    cluster: minikube
-    extensions:
-    - extension:
-        last-update: Sun, 08 Aug 2021 15:24:22 +07
-        provider: minikube.sigs.k8s.io
-        version: v1.22.0
-      name: context_info
-    namespace: default
-    user: minikube
-  name: minikube
-- context:
     cluster: yc-managed-k8s-cat4h3n1iji85sek7ra5
     user: yc-managed-k8s-cat4h3n1iji85sek7ra5
   name: yc-context-test
@@ -36,10 +25,6 @@ current-context: yc-kub-test
 kind: Config
 preferences: {}
 users:
-- name: minikube
-  user:
-    client-certificate: C:\Users\Данил\.minikube\profiles\minikube\client.crt
-    client-key: C:\Users\Данил\.minikube\profiles\minikube\client.key
 - name: yc-managed-k8s-cat4h3n1iji85sek7ra5
   user:
     exec:
