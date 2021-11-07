@@ -48,7 +48,7 @@ users:
       - k8s
       - create-token
       - --profile=service-account-rebrain
-      command: C:\Users\Данил\yandex-cloud\bin\yc.exe
+      command: 
       env: null
       provideClusterInfo: false
 - name: yc-managed-k8s-cato3itepuvq63mmebng
@@ -59,7 +59,7 @@ users:
       - k8s
       - create-token
       - --profile=default
-      command: C:\Users\Данил\yandex-cloud\bin\yc.exe
+      command: yc
       env: null
       provideClusterInfo: false
 - name: yc-managed-k8s-cattig98f4nvjj7r2so3
@@ -70,6 +70,6 @@ users:
       - k8s
       - create-token
       - --profile=service-account-rebrain
-      command: C:\Users\Данил\yandex-cloud\bin\yc.exe
+      command: yc
       env: null
       provideClusterInfo: false
