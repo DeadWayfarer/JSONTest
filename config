@@ -1,0 +1,85 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority: C:\Users\Данил\.minikube\ca.crt
+    extensions:
+    - extension:
+        last-update: Sun, 08 Aug 2021 15:24:22 +07
+        provider: minikube.sigs.k8s.io
+        version: v1.22.0
+      name: cluster_info
+    server: https://172.23.134.200:8443
+  name: minikube
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM1ekNDQWMrZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeE1URXdOVEUxTWpZeE5sb1hEVE14TVRFd016RTFNall4Tmxvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBS3YxCkNLbzQwVUw2VllYN3plNmdlZzVQM0lOZE1CVHBET3pjUGY2eEhxK3dUTTl6L2RZVFRjKy9GaDZrNFV5V01UZ2oKV1VvWEFXSHdxWFNMWXgvdXNPVHBXWEM4ZWpuempsbXd4dTY1UTlaVE5QUkhoOUxsOHVHcVFBYVluREhtUDlBYwpQeWtMLzRzalZvNVVUV3BLWjRkL1daYmViKzNjYUhkNE12ZHZGVUx6VU5vL3Jhc3lyYnV5WUdMY0NCN2xPSHh6CktENTRHUzRnei9tOHB2b243TDBQMmQvOVd2STdjc2orQ2NmZVViOURic3VXbmlZUml0ckh6SGpSeklpclJUMEwKNU4xeWNWT3Z6dHJDb09kdFNmUEU0WjVnTGJtTVdsbktFMG9zS2pTY1Z2aXUrT1FMT1lQdzRhcUZOZFZNaFZTbwpHT2l3RkVmdk51Q25sdG02Z1A4Q0F3RUFBYU5DTUVBd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZMOWRVRzBiY1pRNDF2Tm5iaG9iRFliU2lsRmFNQTBHQ1NxR1NJYjMKRFFFQkN3VUFBNElCQVFDb0d0cWlhbFpqVUw1dUYvUmxObG51RzByWG0yb3B6VENxQ3N2bDlMWm5mUCtsWmhDcApwMThucnNsUS9Ec1pKclU3UEdMRnhFQk51T1ltTkpnS1o5ajhWdWxZR3d1aEptR1dZaVdZL3JUQzdLUkUwWVRUCmdTaUxVUklnbE1jQWc5WjFGa3k5REZRZGRjUWg4WVM1MXVwTnorUWFvdDg4Z1JBcHNpSGVrZXc5TDIxa0RjTk4KMFF5Lzc0SDJwZnJ0R3dEbVNWTnJIcGhXdEJSbWNVLzNFTDVjQVYyUGhyZHVLL2Z3SUg5VHdLMy9nYTFMWCtwZwpZdk51ZW9FTUMvcjNZVXhKVk52NFpzMFhvb2lIMUF1dVdqK29zaktyREdZd3d2Q1JTa05HRTMvWm1hMnVFTlRoClZVL2NTTWFPSmRqV3ZPNWwzTEM3UWZ4MVA2RFRzRFlBVm9MSAotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://51.250.21.62
+  name: yc-managed-k8s-cat4h3n1iji85sek7ra5
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM1ekNDQWMrZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeE1EZ3dPVEUxTVRjd05Wb1hEVE14TURnd056RTFNVGN3TlZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTTVQCk9mci8yTHlmeUZhRFRIYkdEQkN4TlZxNkhnWEYwNXlCNDk2bW5PbkorMy9haXk0TzlHUHhUYTZ4UHdkUVV1QjUKd1d2YTI1Nys5Y2tObWpMZGdzRkcxYXlRbEU5dGozaDBzMHBlU1JHbXpJUGs0S0FmdVpEcldSSXhkb3U1NFhBZgpENUlMQzZxSVZFSThQMHhEYkR1WTk4dzRucHBPamRiT2I3TUVleXdkUW9KMGxYa2N4eWg2bnBLUURnS1orYTBLCmMwTG9JbjAxZDdVeDQrZVhIVkdQVkJJVEdWRjNFdTBlM2VETXhhL0pTVVBKRW53bGJ0bUNEdysxWXIwTW9RUzYKMzJKdFNqYnlaLzJjWmNCRWczR0dybFdaK3VmblRpVjhVdnhLQ01YSXJUVHc5cFlFcTZ2ZWNTeG5YL3lieEpiaQprWHJPMHE4dFNzdVUwcTdNWmpVQ0F3RUFBYU5DTUVBd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZNeGJRQmE0czI1QU5jby9lZlUrVnQ3V3l4YlJNQTBHQ1NxR1NJYjMKRFFFQkN3VUFBNElCQVFDa0Zybmk5ZjZFdXUzU0lJT2tWWmNjM3NrekZpcDRyanJnTCsxd21DS2ZLRlIvSlVYNApXcFZuNkRHZTBVL0o4YXlqTmhaRnA4VS92WDZuUlM0RVVocmkrNjRzV0thazhCQTFyRTQwTmh2L3lTY241RWhuCnovWHlQT0dJK2xpdUFjdmlwQTlOUkMySnFoWGdlTVBtQmdtaW5RRDNlTWpiK0d6ZUhUTDhoWUs2MUtWMGNISWYKZkhsZDNlME5nMG93MVNTRWo5TmpnUVBxbk11YmtUd1IzNUpHL0h2TFg4YWZqR1BLVVBnbS9QRXB4OGM3eXFSOApZTStZWE5XSVA3SGw4eE5DbG03aEFadEY3V1BwZ1J0TkdYNE5FdWhFQ2tLQnQwV2pubkpnRFVwZGF1RGgxTjRZCkxBUDBSZmpwMm9Za3NEL0pxZ0s3SmtLNEhkakZDRFZ0UmlIRwotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://84.252.129.231
+  name: yc-managed-k8s-cato3itepuvq63mmebng
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM1ekNDQWMrZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeE1EZ3dPVEUxTlRReE1Gb1hEVE14TURnd056RTFOVFF4TUZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBSzM3CkhUcmlaQU4zSDhHQTByZkJOajk5bmRqQklzVmtBV0gyYzNSWkZZelloeTd1amNCYWROdVFRM1RFRTRGK2hmdWgKL1ZUUDVMdGkyamlZWDd1VlJ5QUkwMWxiNVI0V2FqZnJsUFprMmdaK0FyblNQcjZYbmJjeG1HamcwQmYxR2F0UApaQm9oekxiL0xndHJWRm1JR1orTjd2SXJXcG1wTXJGY1JKTFBqeGJHTHVYR2hrVjdjc0R5NDA3M2N1R3NHckoyCmF1YjJzcHVvNXA1cXJ0VXhPZmppbExTRUxSU3hlbTNPMnhqcTR4UEtjb3FMQlhSY2tGRm15MUEyUEVoYVA1OEYKZzlMaGdGNjRYcUU1bTl1NkVHeUZlQ0JNT0RMUE5rY3B4cWVOUnYzakFvV3FSTVArYklweUlWdm1WRlNGNDZJLwphMGhJTHFlcnh4YmtrcEh4VE9FQ0F3RUFBYU5DTUVBd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZLS0lQdkc0VjZ4M1hWQmVLek9wTUg3dDE3amhNQTBHQ1NxR1NJYjMKRFFFQkN3VUFBNElCQVFBV3lQSWthYXJGMWc3ODc4bHVMRTdiK0loNG9ZRHhUNHJYNE8yek5IaHRqNUo5NXZwQQpVcHJ4Y0J5TForMTNnME9PdXZlazFJdkg5d1U4V2lOd0s1TWxwTjNLNitzaldTbEVjRDErc2RJdEx3OHFoeEtMCmZVdzI5OGs2S0dSR0Q5SG1iNzBGSzZDZ3p2QzBvdCszMlR6R1VOb3E3cDlaRlMwNkFoWG5SUCtOMjBCakNlSGsKbG5nelRSU01zYloxWEh1ZStmSXo3K29WQTJ1ZlFtMDNENU13SWIvT0tzZTZIaWlCbmlFM0V5cXExNDhGRVJWTQpJSFo4NGRORnpueXVPUDhQQ3EwSFZkWTk1RUFpYnBIRmxtQnRsRHpUOFFNeERwQVMzK084eVA1NVI2amQxa3pCCkVNKzBzNjd6c0hXSTByd0JUV1ZyYm4xbnpCODJFQldranhhMAotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://130.193.40.223
+  name: yc-managed-k8s-cattig98f4nvjj7r2so3
+contexts:
+- context:
+    cluster: minikube
+    extensions:
+    - extension:
+        last-update: Sun, 08 Aug 2021 15:24:22 +07
+        provider: minikube.sigs.k8s.io
+        version: v1.22.0
+      name: context_info
+    namespace: default
+    user: minikube
+  name: minikube
+- context:
+    cluster: yc-managed-k8s-cat4h3n1iji85sek7ra5
+    user: yc-managed-k8s-cat4h3n1iji85sek7ra5
+  name: yc-context-test
+- context:
+    cluster: yc-managed-k8s-cattig98f4nvjj7r2so3
+    user: yc-managed-k8s-cattig98f4nvjj7r2so3
+  name: yc-kub-test
+current-context: yc-kub-test
+kind: Config
+preferences: {}
+users:
+- name: minikube
+  user:
+    client-certificate: C:\Users\Данил\.minikube\profiles\minikube\client.crt
+    client-key: C:\Users\Данил\.minikube\profiles\minikube\client.key
+- name: yc-managed-k8s-cat4h3n1iji85sek7ra5
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - k8s
+      - create-token
+      - --profile=service-account-rebrain
+      command: C:\Users\Данил\yandex-cloud\bin\yc.exe
+      env: null
+      provideClusterInfo: false
+- name: yc-managed-k8s-cato3itepuvq63mmebng
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - k8s
+      - create-token
+      - --profile=default
+      command: C:\Users\Данил\yandex-cloud\bin\yc.exe
+      env: null
+      provideClusterInfo: false
+- name: yc-managed-k8s-cattig98f4nvjj7r2so3
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - k8s
+      - create-token
+      - --profile=service-account-rebrain
+      command: C:\Users\Данил\yandex-cloud\bin\yc.exe
+      env: null
+      provideClusterInfo: false
